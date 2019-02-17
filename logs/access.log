@@ -1967,3 +1967,20 @@
 24.219.199.189 - - [16/Feb/2019:23:21:08 -0500] "GET /play.html HTTP/1.1" 304 0 "http://24.219.213.240:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36"
 24.219.199.189 [16/Feb/2019:23:21:08 -0500] PLAY "live" "2333" "" - 506 1063588 "http://24.219.213.240:8080/play.html" "WIN 32,0,0,142" (50s)
 24.219.199.189 [16/Feb/2019:23:22:21 -0500] PLAY "live" "2333" "" - 506 315764 "http://24.219.213.240:8080/play.html" "WIN 32,0,0,142" (1m 11s)
+192.168.1.130 - - [17/Feb/2019:00:02:21 -0500] "GET / HTTP/1.1" 200 905 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
+192.168.1.130 - - [17/Feb/2019:00:02:23 -0500] "GET /play.html HTTP/1.1" 200 1248 "http://192.168.1.135:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
+192.168.1.130 - - [17/Feb/2019:00:02:26 -0500] "GET /play.html HTTP/1.1" 200 1248 "http://192.168.1.135:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
+192.168.1.130 - - [17/Feb/2019:00:03:20 -0500] "GET /play.html HTTP/1.1" 200 1247 "http://192.168.1.135:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
+192.168.1.130 [17/Feb/2019:00:04:02 -0500] PLAY "live" "2333" "" - 512 3338566 "http://192.168.1.135:8080/play.html" "MAC 32,0,0,142" (40s)
+192.168.1.130 - - [17/Feb/2019:00:04:17 -0500] "GET /play.html HTTP/1.1" 304 0 "http://192.168.1.135:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
+192.168.1.130 - - [17/Feb/2019:00:04:20 -0500] "GET /play.html HTTP/1.1" 200 1247 "http://192.168.1.135:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
+192.168.1.130 [17/Feb/2019:00:04:51 -0500] PUBLISH "live" "2333" "" - 16570148 529 "" "FMLE/3.0 (compatible; FMSc/1.0)" (3m 20s)
+192.168.1.130 - - [17/Feb/2019:00:04:54 -0500] "GET /play.html HTTP/1.1" 200 1247 "http://192.168.1.135:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15"
+192.168.1.130 [17/Feb/2019:00:04:54 -0500] PLAY "live" "2333" "" - 504 2255414 "http://192.168.1.135:8080/play.html" "MAC 32,0,0,142" (32s)
+166.170.29.122 - - [17/Feb/2019:00:07:29 -0500] "GET /play.html HTTP/1.1" 200 1247 "http://24.219.213.240:8080/" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1"
+166.170.29.122 - - [17/Feb/2019:00:07:33 -0500] "GET /play.html HTTP/1.1" 200 1247 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1"
+166.170.29.122 - - [17/Feb/2019:00:07:36 -0500] "GET / HTTP/1.1" 200 905 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 12_1_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1"
+123.151.149.222 - - [17/Feb/2019:00:13:21 -0500] "GET http://aq.qq.com/ HTTP/1.1" 200 905 "-" "-"
+123.151.149.222 - - [17/Feb/2019:00:13:21 -0500] "\x05\x01\x00" 400 173 "-" "-"
+123.151.149.222 - - [17/Feb/2019:00:13:21 -0500] "CONNECT xui.ptlogin2.qq.com:443 HTTP/1.1" 400 173 "-" "-"
+123.151.149.222 - - [17/Feb/2019:00:13:23 -0500] "\x04\x01\x1F\x90\x18\xDB\xD5\xF0\x00" 400 173 "-" "-"

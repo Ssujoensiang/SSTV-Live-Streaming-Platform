@@ -2907,3 +2907,41 @@
 2019/02/16 23:22:21 [info] 1216#1628: *85 client timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond), client: 24.219.199.189, server: 0.0.0.0:1935
 2019/02/16 23:22:21 [info] 1216#1628: *85 disconnect, client: 24.219.199.189, server: 0.0.0.0:1935
 2019/02/16 23:22:21 [info] 1216#1628: *85 deleteStream, client: 24.219.199.189, server: 0.0.0.0:1935
+2019/02/16 23:57:12 [notice] 1896#9072: using the "select" event method
+2019/02/16 23:57:12 [notice] 1896#9072: nginx/1.12.1
+2019/02/16 23:57:12 [info] 1896#9072: OS: 260200 build:9200, "", suite:100, type:1
+2019/02/16 23:57:12 [notice] 1896#9072: start worker processes
+2019/02/16 23:57:12 [notice] 1896#9072: start worker process 2732
+2019/02/16 23:57:12 [notice] 2732#6072: nginx/1.12.1
+2019/02/16 23:57:12 [info] 2732#6072: OS: 260200 build:9200, "", suite:100, type:1
+2019/02/16 23:57:12 [notice] 2732#6072: create thread 1884
+2019/02/16 23:57:12 [notice] 2732#6072: create thread 2920
+2019/02/16 23:57:12 [notice] 2732#6072: create thread 5860
+2019/02/17 00:01:30 [info] 2732#1884: *1 client connected '192.168.1.130'
+2019/02/17 00:01:30 [info] 2732#1884: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://192.168.1.135:1935/live' tc_url='rtmp://192.168.1.135:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:01:30 [info] 2732#1884: *1 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:01:30 [info] 2732#1884: *1 publish: name='2333' args='' type=live silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:03:22 [info] 2732#1884: *3 client connected '192.168.1.130'
+2019/02/17 00:03:22 [info] 2732#1884: *3 connect: app='live' args='' flashver='MAC 32,0,0,142' swf_url='http://vjs.zencdn.net/swf/5.3.0/video-js.swf' tc_url='rtmp://192.168.1.135:1935/live/' page_url='http://192.168.1.135:8080/play.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:03:22 [info] 2732#1884: *3 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:03:22 [info] 2732#1884: *3 play: name='2333' args='' start=0 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:03:51 [info] 2732#1884: *2 client 192.168.1.130 closed keepalive connection
+2019/02/17 00:04:02 [info] 2732#1884: *3 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:02 [info] 2732#1884: *3 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:22 [info] 2732#1884: *5 client connected '192.168.1.130'
+2019/02/17 00:04:22 [info] 2732#1884: *5 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:22 [info] 2732#1884: *5 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:22 [info] 2732#1884: *6 client connected '192.168.1.130'
+2019/02/17 00:04:22 [info] 2732#1884: *6 connect: app='live' args='' flashver='MAC 32,0,0,142' swf_url='http://vjs.zencdn.net/swf/5.3.0/video-js.swf' tc_url='rtmp://192.168.1.135:1935/live/' page_url='http://192.168.1.135:8080/play.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:22 [info] 2732#1884: *6 createStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:22 [info] 2732#1884: *6 play: name='2333' args='' start=0 duration=0 reset=0 silent=0, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:51 [info] 2732#1884: *1 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:51 [info] 2732#1884: *1 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:51 [info] 2732#1884: *1 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:54 [info] 2732#1884: *6 disconnect, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:04:54 [info] 2732#1884: *6 deleteStream, client: 192.168.1.130, server: 0.0.0.0:1935
+2019/02/17 00:05:48 [info] 2732#1884: *4 client 192.168.1.130 closed keepalive connection
+2019/02/17 00:13:21 [info] 2732#1884: *11 client sent invalid method while reading client request line, client: 123.151.149.222, server: , request: " "
+2019/02/17 00:13:21 [info] 2732#1884: *12 client sent invalid request while reading client request line, client: 123.151.149.222, server: , request: "CONNECT xui.ptlogin2.qq.com:443 HTTP/1.1"
+2019/02/17 00:13:21 [info] 2732#1884: *10 client 123.151.149.222 closed keepalive connection
+2019/02/17 00:13:23 [info] 2732#1884: *13 client sent invalid method while reading client request line, client: 123.151.149.222, server: , request: "ê€’ "
