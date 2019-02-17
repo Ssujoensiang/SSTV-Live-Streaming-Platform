@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>SSTV Live Streaming Platform</title>
+        <!-- Chang URLs to wherever Video.js files will be hosted -->
+        <link href="video-js.css" rel="stylesheet" type="text/css">
+            <!-- video.js must be in the <head> for older IEs to work. -->
+            <script src="video.js"></script>
+            <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+            <!--script>
+                 videojs.options.flash.swf = "video-js.swf"; 
+                </script> -->
+    </head>
+    <body>
+        <h1>SSTV Live Streaming Platform</h1>
+        <p> A simple test website player for live streaming</p>
+        
+        <video id="video" class="video-js vjs-default-skin" controls preload="none" width="1280" height="720" data-setup="{}">
+            <!--将下面的地址换成自己的直播流！就是那个在potplayer输入的那个！！！ -->
+            <source src="rtmp://24.219.213.240:1935/live/2333" type="rtmp/flv"/>
+            
+        </video>
+        <p>If "No compatible source was found for this media" error exists, please enable the flash player in your browser to watch this live</p>
+        
+        
+    </body>
+    <p> version 2019.02.16</p>
+    
+</html>
